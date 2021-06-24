@@ -6,19 +6,13 @@ public class Repost {
     private boolean inMyGroupCommunityIdRepost;
     private boolean inMyHighlightsRepost;
     private boolean inMyMessagesRepost;
+    private boolean canCloseRepostWindow;
+    private boolean canRepostPost;
 
     private ExportRepost exportRepost;
     private TimerRepost timerRepost;
     // getters/setters
 
-    public void closeRepostWindow() {
-        //TO DO add logic
 
-    }
-
-    public int repostPost() {
-        // TO DO add logic
-return null;
-
-    }
+}
 }

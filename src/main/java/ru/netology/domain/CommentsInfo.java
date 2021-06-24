@@ -1,35 +1,28 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    private String commentAuthorID;
+
+    private int likesCount;
+    private int commentPostID;
+    private int commentAuthorID;
     private int publicationData;
     private int answerInfo;
     private String textInfo;
-    private String audioUrl;
+    private int audioUrl;
     private String file;
-
     private boolean commentAsMyself;
     private boolean commentAsGroup;
-
+    private boolean canPost;
+    private boolean groupCanPostComment;
+    private boolean canDeleteComment;
+    private boolean canUndoComment;
     //setters/getters
 
-    public int leaveComment() {
-        //TO DO add logic;
-        return null;
-    }
 
     public int editComment() {
         // TO DO add logic;
         return null;
     }
 
-    public void deleteComment() {
-        // TO DO add logic;
-    }
-
-    public int undoComment() {
-        // TO DO add logic;
-        return null;
-    }
 }
 

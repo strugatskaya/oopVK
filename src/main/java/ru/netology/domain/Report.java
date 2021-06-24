@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
 public class Report {
+    int count;
     boolean spam;
     boolean harassment;
     boolean adultContent;

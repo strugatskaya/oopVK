@@ -1,10 +1,10 @@
 package ru.netology.domain;
 
 public class ExportRepost {
-    private String postUrl;
-    private String codePost;
-    private String preViewUrl;
-    private String resourceIdExport;
+    private int postUrl;
+    private int codePost;
+    private int preViewUrl;
+    private int resourceIdExport;
     private boolean youSigned;
 
     // getters/setters

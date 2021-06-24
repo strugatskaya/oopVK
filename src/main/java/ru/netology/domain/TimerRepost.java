@@ -2,13 +2,13 @@ package ru.netology.domain;
 
 public class TimerRepost {
     private boolean myGroupCommunityRepost;
-    private String repostGroupCommunityID;
+    private int repostGroupCommunityID;
     private int calendar;
     private int time;
     private String textInfo;
-    private String videoUrl;
-    private String audioUrl;
-    private String file;
+    private int videoUrl;
+    private int audioUrl;
+    private int file;
     private boolean forFriends;
     private boolean commentsOn;
     private boolean adwOn;
